@@ -23,6 +23,6 @@ var  i = i + 1;
 
 function doWhileLoop(arr) {
   do {
-    arr.shift()
+    arr.pop()
   } while (arr.length > 0 && incrementVariable())
 }
